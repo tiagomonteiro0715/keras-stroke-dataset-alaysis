@@ -1,7 +1,5 @@
 # keras-stroke-dataset-alaysis
 
-# keras-predict-heart-disease
-
 ![stroke scan image](https://images.unsplash.com/photo-1559757175-5700dde675bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80)
 
 -----
