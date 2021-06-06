@@ -4,7 +4,11 @@
 
 -----
 
-Add description
+The motivation behind this project was to gain a better understanding of tensorflow 2.4 and to serve as an example for future projects of the same type. 
+
+Mainly, it creates a machine lerning model for structure data classification. For when given some values(), it gives the probebility of an individual having an stroke.
+
+Not only I lerned a lot about this framework, but also learned in a pratical way machine lerning. This projects standout by the code being writeen in a way that is easy to understand. And also creates a model that is easy and intuitive to use. 
 
 -----
 
