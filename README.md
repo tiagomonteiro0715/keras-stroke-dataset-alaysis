@@ -59,7 +59,6 @@ Install modules to make sure the code runs on a jupyter notebook
 
 ```
 python -m ipykernel install --name=envname
-
 ```
 After all this, start jupyter notebook
 
