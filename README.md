@@ -38,7 +38,7 @@ Create and activate the virtual enviroment.The python version already needs to b
 I am using this python version because at the moment this python version is  compatible with tensorflow and keras
 
 ```
-virtualenv --python=/usr/bin/python3.7 envname
+virtualenv envname
 ```
 
 Activate it:
@@ -58,11 +58,14 @@ pip install tensorflow==2.4.1 pandas==1.2.4 numpy==1.2 ipykernel
 Install modules to make sure the code runs on a jupyter notebook
 
 ```
-python -m ipykernel install --user --name ENVNAME --display-name "Python (whatever you want to call it)"
+python -m ipykernel install --name=envname
+
 ```
 After all this, start jupyter notebook
 
 ```
+cd ../..
+
 jupyter notebook
 ```
 
