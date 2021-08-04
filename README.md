@@ -16,17 +16,13 @@ Basically, it creates a machine learning model for classifying structure data. D
 
 ### Motivation and what I have learned
 
-The purpose of this project was to gain a deeper understanding of Tensorflow 2.4.
+The purpose of this project was to gain a deeper understanding of Tensorflow 2.4. and to serve as a model for future projects of the same type and also to explore my interest in the topic.
 
-To serve as a model for future projects of the same type and also to explore my interest in the topic.
-
-As well as learning a lot about the framework and machine learning, I also learned more about programming and how it works in real time. 
+Besides learning a lot about the framework and machine learning, I also understood more about programming and how it works in real time. 
 
 ### Main difficulties and how it stand out
 
-It was difficult to comprehend every line of code. 
-
-In addition, it is necessary to figure out why certain code lines behaved in the manner that they did and not in an alternative manner. 
+It was difficult to comprehend every line of code. In addition, it is necessary to figure out why certain code lines behaved in the manner that they did and not in an alternative manner. 
 
 By writing the code in a concise manner, the project stands out. Additionally, the model is easy to use and intuitive. 
 
