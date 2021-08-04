@@ -6,32 +6,43 @@
 ![stroke scan image](https://images.unsplash.com/photo-1559757175-5700dde675bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80)
 
 -----
+### What this is
 
-The motivation behind this project was to gain a better understanding of tensorflow 2.4 and to serve as an example for future projects of the same type. 
+Using the TensorFlow framework, this is a machine learning model written in Python.
 
-Mainly, it creates a machine lerning model for structure data classification. For when given some values(age, hypertension, work type), it gives the probability of an individual having an stroke.
+### What this does
 
-Not only I lerned a lot about this framework, but also learned in a pratical way machine lerning. This projects standout by the code being writeen in a way that is easy to understand. And also creates a model that is easy and intuitive to use. 
+Basically, it creates a machine learning model for classifying structure data. Depending on certain values (age, hypertension, work type), it can predict the likelihood of someone having a stroke.
+
+### Motivation and what I have learned
+
+The purpose of this project was to gain a deeper understanding of Tensorflow 2.4.
+
+To serve as a model for future projects of the same type and also to explore my interest in the topic.
+
+As well as learning a lot about the framework and machine learning, I also learned more about programming and how it works in real time. 
+
+### Main difficulties and how it stand out
+
+It was difficult to comprehend every line of code. 
+
+In addition, it is necessary to figure out why certain code lines behaved in the manner that they did and not in an alternative manner. 
+
+By writing the code in a concise manner, the project stands out. Additionally, the model is easy to use and intuitive. 
 
 -----
 
-Dataset used: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
+### Install dependencies
 
------
-
-Code inspired from: https://keras.io/examples/structured_data/structured_data_classification_from_scratch/
-
------
-
-Install dependencies:
-
-Upgrade pip and install [pipenv](https://pipenv.pypa.io/en/latest/)
+#### Upgrade pip and install [pipenv](https://pipenv.pypa.io/en/latest/)
 
 ```
 pip install --upgrade --user pip
 
 pip install --upgrade virtualenv
 ```
+
+
 
 Create and activate the virtual enviroment.The python version already needs to be installed in your pc
 
@@ -41,26 +52,30 @@ I am using this python version because at the moment this python version is  com
 virtualenv envname
 ```
 
-Activate it:
 
+
+#### Activate it:
+
+Windows:
 ```
-cd envname/Scripts
-
-activate
+envname\Scripts\activate
 ```
-
-Install necessary modules and activate it
+macOS/Linux:
+```
+envname/bin/activate
+```
+#### Install necessary modules and activate it
 
 ```
 pip install tensorflow==2.4.1 pandas==1.2.4 numpy==1.2 ipykernel
 ```
 
-Install modules to make sure the code runs on a jupyter notebook
+#### Make sure the code runs on a jupyter notebook
 
 ```
 python -m ipykernel install --name=envname
 ```
-After all this, start jupyter notebook
+#### Start jupyter notebook
 
 ```
 cd ../..
@@ -70,8 +85,6 @@ jupyter notebook
 
 -----
 
-Started on 21/04/2021
+Dataset used: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 
-Ended 
-
-Archived
+Code inspired from: https://keras.io/examples/structured_data/structured_data_classification_from_scratch/
